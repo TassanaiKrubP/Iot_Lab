@@ -39,7 +39,7 @@ void loop()
       else                label = "HIGH SPEED";
 
       if (millis() - lastPrint >= 300)
-      {
+      { 
         lastPrint = millis();
         Serial.print("ADC: ");
         Serial.print(Val);
